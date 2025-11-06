@@ -68,8 +68,8 @@ POST /api/v1/auth/register
 Content-Type: application/json
 
 {
-  "name": "John Doe",
-  "email": "john@example.com",
+  "name": "Rohan Rode",
+  "email": "rohan@example.com",
   "password": "password123",
   "role": "STUDENT"
 }
@@ -83,7 +83,7 @@ POST /api/v1/auth/login
 Content-Type: application/json
 
 {
-  "email": "john@example.com",
+  "email": "rohan@example.com",
   "password": "password123"
 }
 ```
@@ -92,8 +92,8 @@ Content-Type: application/json
 ```json
 {
   "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
-  "email": "john@example.com",
-  "name": "John Doe",
+  "email": "rohan@example.com",
+  "name": "Rohan Rode",
   "role": "STUDENT",
   "message": "Login successful"
 }
