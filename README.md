@@ -202,7 +202,7 @@ Content-Type: application/json
 | Delete Own Course | ❌ | ✅ | ✅ |
 | Delete Any Course | ❌ | ❌ | ✅ |
 | Enroll in Course | ✅ | ✅ | ✅ |
-| AI Summary | ✅ | ✅ | ✅ |
+
 
 ## 🧪 Testing with Postman
 
@@ -240,8 +240,8 @@ Content-Type: application/json
    ```json
    POST /api/v1/auth/register
    {
-     "name": "Professor Smith",
-     "email": "smith@university.edu",
+     "name": "Professor Pramod",
+     "email": "promod@university.edu",
      "password": "secure123",
      "role": "INSTRUCTOR"
    }
@@ -251,7 +251,7 @@ Content-Type: application/json
    ```json
    POST /api/v1/auth/login
    {
-     "email": "smith@university.edu",
+     "email": "promad@university.edu",
      "password": "secure123"
    }
    ```
@@ -271,8 +271,8 @@ Content-Type: application/json
    ```json
    POST /api/v1/auth/register
    {
-     "name": "Jane Student",
-     "email": "jane@student.edu",
+     "name": "Arnav Patel",
+     "email": "arnav@student.edu",
      "password": "pass123",
      "role": "STUDENT"
    }
@@ -287,14 +287,7 @@ Content-Type: application/json
    }
    ```
 
-6. **Generate AI Summary**:
-   ```json
-   POST /api/ai/summary
-   Authorization: Bearer YOUR_TOKEN
-   {
-     "text": "This course covers arrays, linked lists, stacks, queues, trees, and graphs."
-   }
-   ```
+
 
 ## ⚠️ Important Notes
 
